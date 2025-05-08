@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/HomeBtn" android:icon="@android:drawable/ic_menu_manage" android:title="Home" />
+    <item android:id="@+id/OrdersBtn" android:icon="@android:drawable/ic_menu_today" android:title="Reservations" />
+    <item android:id="@+id/HistoryBtn" android:icon="@android:drawable/ic_menu_recent_history" android:title="History" />
+    <item android:id="@+id/NotificationBtn" android:icon="@android:drawable/ic_dialog_info" android:title="Notification" />
+    <item android:id="@+id/AccountBtn" android:icon="@drawable/baseline_account_circle_24" android:title="Account" />
+</menu>
