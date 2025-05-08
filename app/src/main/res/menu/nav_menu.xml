@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HomeBtn"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/OrdersBtn"
+        android:icon="@drawable/baseline_assignment_add_24"
+        android:title="Reservations" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HistoryBtn"
+        android:icon="@drawable/baseline_history_24"
+        android:title="History" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NotificationBtn"
+        android:icon="@drawable/baseline_circle_notifications_24"
+        android:title="Notification" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AccountBtn"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="Account" />
+</menu>

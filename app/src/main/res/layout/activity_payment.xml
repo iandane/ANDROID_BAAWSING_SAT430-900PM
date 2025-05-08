@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/newbg"
+    android:padding="16dp"
+    tools:context=".payment.Payment">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/custom_edittext"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/paymentMethodsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PAYMENT METHODS"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/selectPaymentMethod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="Select the payment method you want to use."
+                android:layout_below="@id/paymentMethodsTitle"
+                android:textColor="@color/black"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="16dp"/>
+
+            <RadioGroup
+                android:id="@+id/paymentMethodsGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/selectPaymentMethod"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/gcash"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text=" GCash"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/gcash"
+                    android:padding="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/visa"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text=" Visa"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/visa"
+                    android:padding="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/cash"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:text=" Cash"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/cash_icon"
+                    android:padding="16dp"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/continueButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="CONTINUE"
+                android:textStyle="bold"
+                android:layout_below="@id/paymentMethodsGroup"
+                android:layout_marginTop="32dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/confirmation_button"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
