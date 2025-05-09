@@ -6,4 +6,4 @@ DESCRIPTION-
 Repo Link - https://github.com/iandane/ANDROID_BAAWSING_SAT430-900PM
             https://github.com/iandane/ELPHP_BAAWSING_SAT1130_400PM
 
-            [BAAWSING!!.pdf](https://github.com/user-attachments/files/20126374/BAAWSING.pdf)
+[BAAWSING!!.pdf](https://github.com/user-attachments/files/20126418/BAAWSING.pdf)
